@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <title>Notes App</title>
+</head>
+<body>
+    <!-- parent container -->
+    <div class="parent_container">
+        <!-- sidebar -->
+        <aside class="sidebar">
+            <!-- logo container -->
+            <div class="logo_container">
+                <img class="logo_icon" src="favicon.svg" alt="logo-icon">
+                <p class="logo_titile">noteKeeper</p>
+            </div>   
+            <!-- search field -->
+               <form class="search_container">
+                <i id="search_icon" class="fa-solid fa-magnifying-glass"></i>
+                <input class="input_field" type="text" placeholder="Search">
+               </form>
+               <!-- new note btn -->
+                <button class="New_notebtn">
+                    <i id="Plus_icon_New_notebtn" class="fa-solid fa-plus"></i>
+                    <p >New note</p>
+                </button>
+                <!-- new notebook btn -->
+                 <button class="New_notebookBtn">
+                    <p>NOTEBOOKS</p>
+                    <i class="fa-solid fa-plus  plus-icon"></i>
+                 </button>
+         </aside>
+
+<!-- main container -->
+ 
+        <main class="main_container">
+            <!-- main header -->
+            <header class="main_header"> 
+               <!-- main header content   -->
+            <div class="header_content">
+                 <!-- main header left content   -->
+                <div class="header_left_content">
+                    <p class="greeting_text"></p>
+                    <p class="current_date"></p>
+                </div>
+                 <!-- main header right content   -->
+                <div class="header_right_content">
+                    <i class="fa-regular fa-moon moon-icon"></i>
+                    <i class="fa-regular fa-sun sun-icon"></i>
+                </div>
+            </div>    
+            </header>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
