@@ -3,7 +3,7 @@
   }
   
   .hidden {
-    display: none;
+    display: none !important;
   }
 
   body {
@@ -71,7 +71,7 @@
           color: white; 
           border: 1px solid #2a2a2a;
   
-          .plus-icon:hover{
+          .plus-icon-New-NotebookBtn:hover{
               background-color: #292f36; 
             }
         }
@@ -188,7 +188,7 @@
       font-weight: 500;
     }
   
-    .plus-icon {
+    .plus-icon-New-NotebookBtn {
       font-size: 10px;
       margin-right: 10px;
       padding: 6px 7px;

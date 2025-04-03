@@ -3,7 +3,7 @@
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 body {
@@ -65,7 +65,7 @@ body.dark-theme .New_notebookBtn {
   color: white;
   border: 1px solid #2a2a2a;
 }
-body.dark-theme .New_notebookBtn .plus-icon:hover {
+body.dark-theme .New_notebookBtn .plus-icon-New-NotebookBtn:hover {
   background-color: #292f36;
 }
 body.dark-theme .moon-icon {
@@ -162,7 +162,7 @@ body.dark-theme .logo_titile {
 .New_notebookBtn p {
   font-weight: 500;
 }
-.New_notebookBtn .plus-icon {
+.New_notebookBtn .plus-icon-New-NotebookBtn {
   font-size: 10px;
   margin-right: 10px;
   padding: 6px 7px;
@@ -170,12 +170,12 @@ body.dark-theme .logo_titile {
   position: relative;
   transition: all 0.3s ease-in-out;
 }
-.New_notebookBtn .plus-icon:hover {
+.New_notebookBtn .plus-icon-New-NotebookBtn:hover {
   background-color: #dddddd;
   cursor: pointer;
   position: relative;
 }
-.New_notebookBtn .plus-icon::after {
+.New_notebookBtn .plus-icon-New-NotebookBtn::after {
   content: "Create New Notebook";
   position: absolute;
   top: 100%;
@@ -192,7 +192,7 @@ body.dark-theme .logo_titile {
   font-family: "kumbh Sans", sans-serif;
   font-weight: 300;
 }
-.New_notebookBtn .plus-icon:hover::after {
+.New_notebookBtn .plus-icon-New-NotebookBtn:hover::after {
   opacity: 1;
   visibility: visible;
   transform: translateX(-50%) translateY(3px);
